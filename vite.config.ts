@@ -9,6 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
+  base: '/Rizal_Library_Project_React/',
   plugins: [
     react(),
     mode === 'development' &&

@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -20,7 +19,7 @@ const PlaceholderChapter = ({ number }: { number: number }) => (
         <p className="text-xl text-gray-600 mb-6">
           This chapter will be implemented soon. Please check back later!
         </p>
-        <a href="/" className="text-primary hover:underline">
+        <a href="/Rizal_Library_Project_React/" className="text-primary hover:underline">
           Return to Home
         </a>
       </div>
@@ -35,7 +34,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      <BrowserRouter basename="/Rizal_Library_Project_React">
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/chapter1" element={<Chapter1 />} />

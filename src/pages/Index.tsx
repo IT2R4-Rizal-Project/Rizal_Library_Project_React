@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -29,6 +28,14 @@ const Index = () => {
                 className="bg-white text-primary hover:bg-gray-100"
               >
                 <Link to="/chapter1">Begin the Journey</Link>
+              </Button>
+              <Button 
+                asChild 
+                variant="outline" 
+                size="lg" 
+                className="border-white text-white hover:bg-white/10"
+              >
+                <Link to="#chapters">View Chapters</Link>
               </Button>
             </div>
           </div>
