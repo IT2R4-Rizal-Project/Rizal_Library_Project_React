@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://IT2R4-Rizal-Project.github.io/Rizal_Library_Project_React",
+  "homepage": "https://rizallibraryprojectreact.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
